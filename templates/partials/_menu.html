@@ -5,11 +5,11 @@
     </div>
 
     <header class="cabecalho">
-        <img src="{% static 'assets/logo/film-clapperboard.png' %}" alt="Logo do cinemateca" />
+        <img src="{% static 'assets/logo/claquete.png' %}" alt="Logo do cinemateca" />
         <main class="principal">
             <section class="menu-lateral">
                 <nav class="menu-lateral__navegacao">
-                    <a href="{% url 'index' %}"><img src="{% static 'assets/ícones/1x/home.png' %}"> Home</a>
+                    <a href="{% url 'index' %}"><img src="{% static 'assets/logo/pagina-inicial.png' %}"> Home</a>
 
                 </nav>
             </section>
@@ -22,7 +22,7 @@
             <form action="{% url 'buscar' %}">
                 <input class="busca__input" type="text" name="buscar" placeholder="O que você procura?">
                 <button type="submit" style="padding: 0cap; margin-left: 50px;border: 0cap;">
-                    <img class="busca__icone" src="{% static 'assets/ícones/1x/procurar.png' %}">
+                    <img style="float: left;" class="busca__icone" src="{% static 'assets/logo/procurar.png' %}">
                 </button>
             </form>
         </div>

@@ -77,7 +77,7 @@ table {
 }
 
 .cabecalho__busca {
-    width: 100px;
+    width: 300px;
     margin-top: 2rem;
     margin-left: 1000px;
     align-items: center;
@@ -132,16 +132,18 @@ table {
 }
 
 .card {
+    padding: 1rem;
     border-radius: 10px;
     box-shadow: 0px 10px 10px #242121ab;
     color: #FFFFFF;
     margin-bottom: 1.5rem;
     position:relative;
-    width: auto;
-    height: auto;
+    width: 250px;
 }
 
 .card__imagem {
+    display: flex;
+    justify-content: space-between;
     position: relative;
     width: 250px;
     border-radius: 20px
@@ -152,7 +154,7 @@ table {
     border-radius: 8px;
     border: 2px solid transparent;
     font-size: 1rem;
-    left: 10px;
+    left: 25px;
     margin-right: 8rem;
     padding: .3rem .3rem;
     position: absolute;
@@ -196,26 +198,35 @@ table {
 }
 
 .imagem {
+    flex-direction: row;
     display: flex;
     justify-content: center;
-    align-items: center;
+   
+}
+
+.imagem__conteudo{
+    flex-direction: row;
+    display: flex;
 }
 
 
 .imagem__imagem {
-    width: 10%;
+    width: 450px;
+    height: 700px;
     border-radius: 20px;
 }
 
 .imagem__info {
+    flex-direction: row;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
 
 .imagem__texto {
+    width: 500px;
     flex-direction: column;
     display: flex;
     color: #FFFFFF;
@@ -268,7 +279,7 @@ table {
 
 .menu-lateral__navegacao a:first-child {
     font-weight: bold;
-    color: #00ccff;
+    color: #fffb00;
 }
 
 .menu-lateral__navegacao img {

@@ -82,6 +82,7 @@ table {
 }
 
 .cabecalho__busca {
+    width: 300px;
     align-items: center;
     border-radius: 10px;
     background: linear-gradient(45deg, #C98CF1,#7B78E5);
