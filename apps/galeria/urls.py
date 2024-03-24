@@ -1,10 +1,10 @@
 from django.urls import path
 from apps.galeria.views import\
-      index, imagem, buscar
+      index, imagem, buscar,filtro
 
 urlpatterns = [
     path('', index, name='index'),
     path('imagem/<int:foto_id>', imagem, name='imagem'),
     path('buscar', buscar,name="buscar"),
-
+    path('filtro/<str:categoria>', filtro, name='filtro'),
 ]

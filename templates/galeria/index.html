@@ -5,6 +5,14 @@
                 <section class="banner">
                     <h1 class="banner__titulo"> Cinemateca</h1>
                 </section>
+                <section class="tags">
+                    <p class="tags__titulo"></p>
+                    <ul class="tags__lista">
+                        <li class="tags__tag"><a href="{% url 'filtro' 'Filmes' %}" class="btn" style="color: #ffffff;" >Filmes</a></li>
+                        <li class="tags__tag"><a href="{% url 'filtro' 'Series' %}" class="btn" style="color: #ffffff;" >Series</a></li>
+                        <li class="tags__tag"><a href="{% url 'filtro' 'Animes' %}" class="btn" style="color: #ffffff;" >Animes</a></li>
+                    </ul>
+                </section>
                 <section class="galeria">
                     <div class="cards">
                         <h2 class="cards__titulo">Navegue pela galeria</h2>

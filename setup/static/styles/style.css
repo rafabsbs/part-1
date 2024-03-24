@@ -149,6 +149,10 @@ table {
     border-radius: 20px
 }
 
+.card__imagem:hover {
+    width: 260px;
+    opacity: 30%;
+}
 .card__tag {
     background-color: #D9D9D940;
     border-radius: 8px;
@@ -353,15 +357,12 @@ table {
     display: flex;
     justify-content: space-between;
     color: #FFFFFF;
-}
-
-.rodape__icones {
-    width: 80px;
-    display: flex;
-    justify-content: space-between;
+    flex-direction: row;
 }
 
 .rodape__texto {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0px 0px 10px yellow;
     font-size: 1.1rem;
 }
 
