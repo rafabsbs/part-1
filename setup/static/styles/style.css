@@ -230,6 +230,7 @@ table {
 }
 
 .imagem__texto {
+    margin-left: 2rem;
     width: 500px;
     flex-direction: column;
     display: flex;
@@ -356,13 +357,13 @@ table {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    color: #FFFFFF;
     flex-direction: row;
 }
 
 .rodape__texto {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    box-shadow: 0px 0px 10px yellow;
+    box-shadow: -1px 10px 10px 5px yellow;
+    color: yellow;
     font-size: 1.1rem;
 }
 
