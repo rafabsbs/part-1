@@ -19,12 +19,6 @@ class FotografiaForms(forms.ModelForm):
             'descricao': forms.Textarea(attrs={'class': 'form-control'}),
             'foto': forms.TextInput(attrs={'class': 'form-control'}),
             'video': forms.TextInput(attrs={'class': 'form-control'}),
-            'data_fotografia': forms.DateInput(
-                format = '%d/%m/%Y',
-                attrs ={
-                    'type': 'date' ,    
-                    'class': 'form-control'}
-                ),
             'usuario': forms.Select(attrs={'class': 'form-control'}),
             
             

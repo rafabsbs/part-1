@@ -231,7 +231,7 @@ table {
 
 .imagem__texto {
     margin-left: 2rem;
-    width: 500px;
+    width: 600px;
     flex-direction: column;
     display: flex;
     color: #FFFFFF;
@@ -245,6 +245,7 @@ table {
 }
 
 .imagem__legenda {
+    align-items: center;
     font-size: 2rem;
     display: flex;
     line-height: 3rem;
